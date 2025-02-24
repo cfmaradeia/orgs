@@ -1,12 +1,8 @@
 package br.com.cfmaradeia.orgs.ui.activity
 
-import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import br.com.cfmaradeia.orgs.R
 
-class FormProdutoActivity : AppCompatActivity() {
+class FormProdutoActivity : AppCompatActivity(R.layout.activity_form_produto) {
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-
-    }
 }
